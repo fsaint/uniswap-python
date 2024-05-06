@@ -27,11 +27,11 @@ _netid_to_name = {
     137: "polygon",
     100: "xdai",
     250: "fantom",
+    8453: "base",
     42161: "arbitrum",
     421611: "arbitrum_testnet",
     1666600000: "harmony_mainnet",
     1666700000: "harmony_testnet",
-    11155111: "sepolia"
 }
 
 _factory_contract_addresses_v1 = {
@@ -53,10 +53,10 @@ _factory_contract_addresses_v2 = {
     "xdai": "0xA818b4F111Ccac7AA31D0BCc0806d64F2E0737D7",
     "binance": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
     "binance_testnet": "0x6725F303b657a9451d8BA641348b6761A6CC7a17",
+    "base": "0x8909Dc15e40173Ff4699343b6eB8132c65e18eC6",
     # SushiSwap on Harmony
     "harmony_mainnet": "0xc35DADB65012eC5796536bD9864eD8773aBc74C4",
     "harmony_testnet": "0xc35DADB65012eC5796536bD9864eD8773aBc74C4",
-    "sepolia": "0x7E0987E5b3a30e3f2828572Bb659A548460a3003"
 }
 
 _router_contract_addresses_v2 = {
@@ -67,11 +67,10 @@ _router_contract_addresses_v2 = {
     "xdai": "0x1C232F01118CB8B424793ae03F870aa7D0ac7f77",
     "binance": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
     "binance_testnet": "0xD99D1c33F9fC3444f8101754aBC46c52416550D1",
+    "base": "0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24",
     # SushiSwap on Harmony
     "harmony_mainnet": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
     "harmony_testnet": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506",
-    #sepolia tesnet router address
-    "sepolia": "0xC532a74256D3Db42D0Bf7a0400fEFDbad7694008",
 }
 
 MAX_UINT_128 = (2**128) - 1
